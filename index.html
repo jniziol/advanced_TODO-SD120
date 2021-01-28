@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>RepairIt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <section class="fixmeapp">
+      <header class="header">
+        <h1>rep🔥irs</h1>
+        <form>
+          <input id="repair" class="new-repair" placeholder="What needs to be repaired?" autofocus>
+          <div class="new-repair">          
+            <label>Due Date</label>
+            <input id="due-date" placeholder="Due When?" type="date">
+          </div>
+          <button class="hidden">Submit</button>  
+        </form>
+      </header>
+      <section class="main">       
+        <ul class="repair-list"></ul>
+      </section>
+      <footer class="footer">     
+        <button class="clear-completed">Clear completed</button>
+      </footer>
+    </section>   
+    <div id="error" class="red"></div>
+  </body> 
+</html>
